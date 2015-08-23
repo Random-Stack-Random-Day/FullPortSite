@@ -1,0 +1,181 @@
+body { 
+  padding-top: 30px; 
+  position: relative;
+}
+/* Home Page*/
+.intro-name{
+  padding: 20% 0% 20% 0%;
+}
+.meh-name{
+  text-align: center;
+  text-shadow: 2px 1px 2px #000;
+  padding: -50px;
+  color: silver;
+}
+.meh-slogan{
+  text-align: center;
+  color: orange;
+}
+.da-divida{
+  width:75%;
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+ul.intro-social-buttons {
+  text-align: center;
+}
+ul.intro-social-buttons > li {
+        display: block
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+.btn {
+  display: inline-block;
+  color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+	color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+.fader{
+  background: rgba(70, 72, 82, .6);
+    position: relative;  
+    width: 100%;
+    height: 100%;
+}
+#home{ background:url(http://i.imgur.com/pVx1LQ7.jpg)no-repeat center center fixed;
+  
+  background-size: cover;
+  height: 855px;
+}
+  /*End Home*/
+
+/* About */
+#about {
+  background: url(http://i.imgur.com/UM4vjhK.jpg) no-repeat center center fixed;
+  background-size: cover; 
+  height: 855px;
+}
+
+.concept {
+  color: blue;
+}
+
+img.meh-head{
+  width: 65%;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+#portfolio {
+  background:
+    url(http://i.imgur.com/jZZdXjJ.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+#contact {
+  background: url(http://i.imgur.com/0At1GQH.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+h2.concept{
+   margin-top: 100px;
+    font-size: 3em;
+    color: rgba(0, 255, 255, 0.9);
+  
+}
+p.description{
+  font-size: 22px;
+  color: #FFFFC2;
+  font-family: 'Bowlby One', cursive;
+}
+/* About End */
+
+/* Portfolio */
+.progress {
+  background-color: transparent;
+  box-shadow: none;
+  margin-bottom: 0px;
+  width: 50%;
+  float: left;
+}
+.progress-bar {
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.progress-bar-good {background: green;}
+.progress-bar-wip-high {background: #50ad03;}
+.progress-bar-wip-low {background: #e33e07;}
+
+.port-proj{
+  background-color: transparent;
+  border: 0px;
+}
+.caption h3 {
+  color: red;
+}
+
+.caption p {
+  color: silver;
+}
+.btn-center{
+  position: relative;
+  text-align: center;
+}
+
+/* Portfolio End */
+/* Contact Start */
+.contact{
+  padding: 100px;
+  position: relative;
+}
+
+.social-buttons {
+  list-style-type: none;
+}
+
+.social-buttons > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+#contact_form{
+  margin: 50px;
+  position: relative;
+}
+/*End Contact*/
+/*Begin Footer*/
+footer{
+  padding: 10px;
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.testit{
+  text-align: center;
+}
+/*Filler*/
